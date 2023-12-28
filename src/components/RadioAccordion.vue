@@ -15,7 +15,7 @@ defineProps<Props>()
 
 <template>
   <div
-    class="w-full flex flex-row shadow-md rounded-sm mb-4 content-center p-4 cursor-pointer"
+    class="max-w-md flex flex-row shadow-md rounded-sm mb-4 content-center p-4 cursor-pointer"
     :class="active ? 'bg-amber-50' : 'hover:bg-slate-50'"
     @click="setModelValue(id)"
   >
