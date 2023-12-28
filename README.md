@@ -1,6 +1,6 @@
 # RadioAccordionVue
 
-This projet is a first contact with Storybook through Vue3 and Vite
+This project is a first contact with Storybook through Vue3 and Vite
 
 ## Project Setup
 
