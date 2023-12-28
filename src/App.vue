@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import RadioAccordion from './components/RadioAccordion.vue'
-import { ref, watch, getCurrentInstance } from 'vue'
+import { ref } from 'vue'
 
 const accordionsData = [
   {
@@ -26,7 +26,7 @@ const accordionsData = [
   }
 ]
 
-const modelValue = ref<Number>(1)
+const modelValue = ref<Number | undefined>(undefined)
 const setModelValue = (id: number) => {
   modelValue.value = id
 }
